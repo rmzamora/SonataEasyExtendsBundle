@@ -1,11 +1,16 @@
 {
-    "name": "sonata-project/easy-extends-bundle",
+    "name": "rmzamora/easy-extends-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony SonataEasyExtendsBundle",
-    "keywords": ["sonata", "easy extends"],
+    "description": "Symfony SonataEasyExtendsBundle rmzamora fork",
+    "keywords": ["sonata", "easy extends", "rmzamora fork"],
     "homepage": "http://sonata-project.org/bundles/easy-extends",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Mell M. Zamora",
+            "email": "me@mellzamora.com",
+            "homepage": "http://mellzamora.com"
+        },
         {
             "name": "Thomas Rabaix",
             "email": "thomas.rabaix@sonata-project.org",
@@ -18,9 +23,9 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*",
-        "symfony/console": "2.*",
-        "symfony/finder": "2.*"
+        "symfony/framework-bundle": "2.2.*",
+        "symfony/console": "2.2.*",
+        "symfony/finder": "2.2.*"
     },
     "autoload": {
         "psr-0": { "Sonata\\EasyExtendsBundle": "" }
@@ -29,7 +34,8 @@
     "extra": {
         "branch-alias": {
             "dev-2.0": "2.0.x-dev",
-            "dev-master": "2.1.x-dev"
+            "dev-master": "2.1.x-dev",
+            "dev-rmzamora-master": "2.2.x-dev"
         }
     }
 }
